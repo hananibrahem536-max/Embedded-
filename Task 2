@@ -1,0 +1,61 @@
+    (1)
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int x = 50;
+
+    printf("%d\n", x + 25");
+    printf("%d\n", x - 25");
+    printf("%d\n", x * 2");
+    printf("%d\n", x / 2");
+
+    return 0;
+}
+
+
+75
+25
+100
+25
+
+
+=== Code Execution Successful ===
+
+
+      (2)
+#include <stdio.h>
+
+int main() {
+    char ch = 'C';
+
+    printf("%c\n", ch - 2);
+    printf("%c\n", ch + 2);
+
+    return 0;
+}
+
+A
+E
+
+
+=== Code Execution Successful ===
+
+
+    (3)
+
+#include <stdio.h>
+
+int main() {
+    float num1 = 12.25;
+    float num2 = 10.12;
+
+    printf("%.2f\n", num1 - (int)num1);
+    printf("%.2f\n", num2 - (int)num2);
+
+    return 0;
+}
+
+0.25
+0.12
+=== Code Execution Successful ===
